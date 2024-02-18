@@ -41,15 +41,15 @@ Client-server chat applications are software systems that enable real-time commu
 •	Message routing may involve maintaining a list of connected users and their associated sockets.
 
 ## Architecture:
-## Client-Server Model:
+### Client-Server Model:
 Client-server chat applications typically follow the client-server model, where one entity acts as the server, managing connections and facilitating communication, and one or more entities act as clients, initiating communication with the server.
 
-## Communication Protocols:
+### Communication Protocols:
 The choice of communication protocol is crucial. Many chat applications use TCP (Transmission Control Protocol) for reliable, connection-oriented communication to ensure the ordered and error-free exchange of messages.
 User Authentication:
 User authentication mechanisms are essential to ensure secure and authorized access to the chat system. This can involve username-password authentication or more advanced methods like tokens.
 ## Components of Client-Server Chat Applications:
-## Server-Side Components:
+### Server-Side Components:
 
 •	Socket Handling: The server manages incoming client connections using sockets, creating a separate thread or process for each connected client.
 •	User Management: Maintaining information about connected users, their status, and handling login/logout functionality.
